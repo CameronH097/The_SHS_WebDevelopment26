@@ -1,4 +1,4 @@
-.button {
+.buttonB {
 	background-color: #4CAF50;
 	border: none;
 	color: white;
@@ -11,12 +11,37 @@
 	cursor: pointer;
 }
 
-.button1 {
+.title{
+  color: red;
+  font-family: 'Trebuchet MS', sans-serif; 
+}
+
+.title-large {
+  font-size: 2rem;
+}
+
+.title-small {
+  font-size: .5rem;
+}
+
+.buttonsoftedge {
 	border-radius: 8px;
 }
 
-.button2 {
+.buttonroundedge {
 	border-radius: 30%;
+}
+
+.buttonHB:hover{
+	color:blue
+}
+
+.buttonHR:hover{
+	color:red
+}
+
+.buttonHY:hover{
+	color:yellow
 }
 
 .red {
@@ -34,4 +59,16 @@ table{
 
 h1, h2, h3, h4, h5, h6{
 	text-align:center;
+}
+
+#morecontent {
+  background-color: yellow;
+}
+
+*{
+    text-align:center;
+	border:red;
+	border-radius: 20px;
+	background-color: grey;
+    
 }
